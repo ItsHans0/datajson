@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <pre id="json-data"></pre>
+
+    <script>
+        // Data JSON yang ingin ditampilkan
+        var jsonData = { data: true };
+
+        // Menampilkan data JSON dalam elemen pre
+        document.getElementById('json-data').textContent = JSON.stringify(jsonData, null, 2);
+    </script>
+</body>
+</html>
