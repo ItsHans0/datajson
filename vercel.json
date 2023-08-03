@@ -1,0 +1,7 @@
+{
+  "routes": [
+    { "src": "/serverInfo", "dest": "server.js" },
+    { "src": "/voters", "dest": "server.js" },
+    { "src": "/(.*)", "dest": "/" }
+  ]
+}
