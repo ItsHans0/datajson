@@ -74,8 +74,3 @@ function extractVoters(html) {
 
   return votersMsg;
 }
-
-
-app.listen(port, () => {
-  console.log(`Server API berjalan di http://localhost:${port}`);
-});
